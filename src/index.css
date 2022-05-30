@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+h2 {
+    margin: 0;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+.App {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    width: min(400px, 80%);
+    border-radius: 15px;
+    box-shadow: 1px 1px 7px 0 #000a;
+    position: relative;
+}
+.card__title {
+    font-size: 30px;
+    text-align: center;
+}
+.card__list {
+    font-size: 25px;
+    text-align: center;
+}
+.card__btn {
+    display: block;
+    width: 40px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 0 #000a;
+
+}
+.card__btn:active{
+    box-shadow: 0 0 0 0 #000a;
+    transition: box-shadow 200ms ease;
+}
