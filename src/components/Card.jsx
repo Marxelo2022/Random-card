@@ -13,7 +13,7 @@ const Card = ({userRandom, colorRandom, clickButton}) => {
           <li className='card__list'>
             <b>{userRandom.txt_japanese}</b>
           </li>
-          <br />
+          <br />  
           <li className='card__list'>
             <b className='card__b'></b>
             {userRandom.txt}
