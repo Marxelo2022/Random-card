@@ -20,9 +20,13 @@ const QuoteRandom = () => {
          setUserRandom(getElementRandom(users)) 
          setColorRandom(getElementRandom(colors))
         }
-    
+       
+      const appStyle = {
+        backgroundColor: colorRandom
+        }
+        
 
-  return ({userRandom, colorRandom, clickButton})
+  return ({userRandom, colorRandom, clickButton, appStyle})
 }
 
 export default QuoteRandom
